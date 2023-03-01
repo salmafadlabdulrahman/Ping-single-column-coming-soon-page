@@ -31,12 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot (456)](https://user-images.githubusercontent.com/88597694/222220239-f890f551-cafe-4e5e-8776-a19a82c245d9.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/salmafadlabdulrahman/Ping-single-column-coming-soon-page)
+- Live Site URL: [https://heroic-salamander-78a839.netlify.app/)
 
 ## My process
 
