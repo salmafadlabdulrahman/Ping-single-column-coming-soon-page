@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo-container {
+  margin-top: 5em;
+}
+
+.logo {
+  width: 17%;
+}
+
+.content {
+  margin-top: 2.2em;
+}
+
+h1 {
+  color: hsl(0, 0%, 59%);
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.soon {
+  color: hsl(209, 33%, 12%);
+  font-weight: 700;
+}
+
+.main-text {
+  margin-top: 1em;
+  color: hsl(209, 33%, 12%);
+}
+
+.buttons {
+  padding-left: 2.5em;
+  margin-top: 2em;
+  display: grid;
+  text-align: center;
+}
+
+input {
+  border: 1px solid hsl(223, 100%, 88%);
+  width: 90%;
+  height: 2.7rem;
+  padding-left: 2em;
+  border-radius: 60px;
+  order: 0;
+}
+
+.input-error {
+  border: 1px solid hsl(354, 100%, 66%);
+}
+
+.error-message {
+  color: hsl(354, 100%, 66%);
+  margin-top: .3em;
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+  text-align: left;
+  order: 1;
+  font-size: 0.8em;
+  font-style: italic;
+  font-weight: 300;
+  display: none;
+}
+
+::placeholder {
+  color: hsl(0, 0%, 59%);
+  opacity: 0.5;
+  font-weight: 100;
+}
+
+button {
+  margin-top: .8em;
+  background: hsl(223, 87%, 63%);
+  border: 0;
+  width: 90%;
+  border-radius: 60px;
+  height: 2.7rem;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+  box-shadow: 0px 3px 5px 1px hsl(223, 100%, 88%);
+  font-size: 1em;
+  cursor: pointer;
+  order: 2;
+}
+
+button:hover {
+  background: hsl(223, 100%, 88%);
+}
+
+.hero-img {
+  margin-top: 4em;
+}
+
+.social-icons {
+  margin-top: 4em;
+  color: hsl(223, 87%, 63%);
+}
+
+a {
+  border-radius: 50px;
+  padding: 0.5em 0.7em;
+  margin: 0.5em;
+  border: 1px solid hsl(0, 2%, 88%);
+}
+
+a:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: #fff;
+}
+
+i {
+  border-radius: 60px;
+  font-size: 1em;
+}
+
+.copyright {
+  color: hsl(0, 0%, 59%);
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 0.8em;
+}
+
+@media (min-width: 680px) {
+  .buttons {
+    max-width: 65%;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: block;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .main-text {
+    font-size: 1.2em;
+    font-weight: 300;
+  }
+  input {
+    max-width: 45%;
+    height: 3.5rem;
+    margin-right: 1em;
+  }
+  button {
+    margin: 0;
+    max-width: 22%;
+    height: 3.5rem;
+  }
+  .logo-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 4em;
+  }
+
+  .logo {
+    width: 13%;
+  }
+
+  .hero-img {
+    width: 40%;
+  }
+  .social-icons {
+    font-size: 0.9em;
+  }
+  footer {
+    padding-bottom: 1em;
+  }
+  .error-message {
+    max-width: 60%;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0.3em;
+    padding-left: 0;
+  }
+}
